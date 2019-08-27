@@ -73,8 +73,8 @@
     "ap-southeast-2" : { "32" : "ami-b3990e89", "64" : "ami-bd990e87" },
     "sa-east-1"      : { "32" : "ami-e209d0ff", "64" : "ami-1e08d103" }
       }
-
-  "Resources" : {
+  },
+  "Resources": {
     "VPC": {
       "Type": "AWS::EC2::VPC",
       "Properties": {
