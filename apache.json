@@ -74,7 +74,7 @@
     "sa-east-1"      : { "32" : "ami-e209d0ff", "64" : "ami-1e08d103" }
       }
 
-  "Resources": {
+  "Resources" : {
     "VPC": {
       "Type": "AWS::EC2::VPC",
       "Properties": {
